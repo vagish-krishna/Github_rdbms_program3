@@ -1,1 +1,7 @@
+use school;
+ALTER TABLE student
+ADD EMAIL VARCHAR(30);
 
+ALTER TABLE student
+ADD PHONENUMBER INT(10);
+DESC student;
